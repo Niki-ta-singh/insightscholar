@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insight Scholar — Technical Courses in AI, Python, Java, Full Stack & Gen AI</title>
+<meta name="description" content="Insight Scholar offers specialized technical courses — AI from Scratch, Python, Java, Full Stack Development and Professional Generative AI — with both online and offline batches.">
+
+<!-- Favicon (inline SVG, no external asset needed) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230B1120%22/><path d=%22M50 20 L74 34 V66 L50 80 L26 66 V34 Z%22 fill=%22none%22 stroke=%22%23E8A33D%22 stroke-width=%224%22/><circle cx=%2250%22 cy=%2250%22 r=%228%22 fill=%22%23E8A33D%22/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="28" height="28">
+          <path d="M20 6 L33 13.5 V26.5 L20 34 L7 26.5 V13.5 Z" fill="none" stroke="currentColor" stroke-width="2.4"/>
+          <circle cx="20" cy="20" r="4.2" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="brand-text">Insight<em>Scholar</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <a href="#courses">Courses</a>
+      <a href="#modes">Online / Offline</a>
+      <a href="#why">Why Us</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="btn btn-small btn-primary header-cta" href="https://forms.gle/mhqiQmN9z27biwUx7">
+      Enroll now
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"></p>
+        <h1>
+          Turn <span class="hl">curiosity</span> into a
+          career you can ship.
+        </h1>
+        <p class="hero-sub">
+          Insight Scholar runs focused, cohort-based courses in AI, Python, Java, Full Stack
+          Development and Generative AI — taught by practitioners, delivered online or
+          in‑person at our center.
+        </p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-primary">View all courses</a>
+          <a href="https://forms.gle/mhqiQmN9z27biwUx7" class="btn btn-ghost">Online or offline?</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5</strong><span>specialised tracks</span></div>
+          <div><strong>2</strong><span>learning modes</span></div>
+          <div><strong>1</strong><span>simple registration</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+            <span class="terminal-title">insight-scholar — enroll.sh</span>
+          </div>
+          <div class="terminal-body" id="typingTarget"></div>
+        </div>
+        <div class="bulb-glow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE / DOMAINS ===================== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>PYTHON</span><span>·</span><span>JAVA</span><span>·</span><span>FULL STACK</span><span>·</span>
+      <span>AI FROM SCRATCH</span><span>·</span><span>GENERATIVE AI</span><span>·</span>
+      <span>PYTHON</span><span>·</span><span>JAVA</span><span>·</span><span>FULL STACK</span><span>·</span>
+      <span>AI FROM SCRATCH</span><span>·</span><span>GENERATIVE AI</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ===================== COURSES ===================== -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <p class="eyebrow center"></p>
+      <h2 class="section-title center">Pick a domain. Register in a minute.</h2>
+      <p class="section-sub center">
+        Every course below opens the same short Google Form — select the course name
+        from the dropdown inside it and we'll take care of the rest.
+      </p>
+
+      <div class="course-grid" id="courseGrid">
+        <!-- Cards injected by JS from js/script.js (courseData) -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MODES ===================== -->
+  <section class="modes" id="modes">
+    <div class="container modes-inner">
+      <div class="modes-copy">
+        <p class="eyebrow">// how you attend</p>
+        <h2 class="section-title">Learn from your room, or ours.</h2>
+        <p class="section-sub">
+          Every Insight Scholar course runs in two parallel modes. Pick whichever fits your
+          week — you can also switch batches later if your schedule changes.
+        </p>
+      </div>
+
+      <div class="mode-cards">
+        <div class="mode-card">
+          <div class="mode-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="30" height="30"><rect x="6" y="10" width="36" height="24" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/><line x1="16" y1="40" x2="32" y2="40" stroke="currentColor" stroke-width="2.2"/><line x1="24" y1="34" x2="24" y2="40" stroke="currentColor" stroke-width="2.2"/></svg>
+          </div>
+          <h3>Online</h3>
+          <p>Live instructor-led classes over video call, recorded for replay, with doubt-clearing sessions and a shared course tracker.</p>
+          <ul class="mode-list">
+            <li>Live sessions + recordings</li>
+            <li>Works from anywhere</li>
+            <li>Flexible batch timings</li>
+          </ul>
+        </div>
+
+        <div class="mode-card">
+          <div class="mode-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" width="30" height="30"><path d="M24 6 L42 16 V32 L24 42 L6 32 V16 Z" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="24" cy="24" r="5" fill="currentColor"/></svg>
+          </div>
+          <h3>Offline</h3>
+          <p>In-person classroom sessions at your place with computer or laptop systems.</p>
+          <ul class="mode-list">
+            <li>Dedicated practical practice</li>
+            <li>Face-to-face mentoring</li>
+            <li>Structured weekday/weekend batches</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY US ===================== -->
+  <section class="why" id="why">
+    <div class="container">
+      <p class="eyebrow center"></p>
+      <h2 class="section-title center">Built like a good syllabus: no filler.</h2>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-tag">01</span>
+          <h3>Project-first teaching</h3>
+          <p>Every module ends in something you built, not just slides you sat through.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-tag">02</span>
+          <h3>Small batch sizes</h3>
+          <p>Enough people to learn together, few enough that questions actually get answered.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-tag">03</span>
+          <h3>Real mentors</h3>
+          <p>Taught by people who've written production code, not just read about it.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-tag">04</span>
+          <h3>One registration flow</h3>
+          <p>A single Google Form, no accounts, no passwords, no dark patterns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <p class="eyebrow center">// before you ask</p>
+      <h2 class="section-title center">Frequently asked</h2>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How do I register for a course?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Click "Register" on any course card, or "Enroll now" in the top navigation. It opens our Google Form in a new tab — fill in your details, pick the course and preferred mode (online/offline), and submit.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Can I switch between online and offline later?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Yes. Mention it in the form's notes section, or write to us afterwards — we'll move you to the next available batch in the mode you prefer.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Do I need prior coding experience?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a">
+            <p>No. AI from Scratch, Python and Java are built for beginners. Full Stack and the Professional Gen AI course assume you're comfortable with basic programming.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Is there a certificate on completion?</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Yes, every course ends with a completion certificate along with the projects you build during the program.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA STRIP ===================== -->
+  <section class="cta-strip">
+    <div class="container cta-strip-inner">
+      <h2>Pick your domain. The form takes two minutes.</h2>
+      <a href="#courses" class="btn btn-primary btn-large">Browse courses &amp; register</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-text">Insight<em>Scholar</em></span>
+      <p>Specialized technical courses. Online and offline. One registration form.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Courses</h4>
+      <a href="#courses">AI from Scratch</a>
+      <a href="#courses">Python</a>
+      <a href="#courses">Java</a>
+      <a href="#courses">Full Stack Development</a>
+      <a href="#courses">Professional Gen AI</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:scholarinsight0@gmail.com">scholarinsight0@gmail.com</a>
+      <a href="https://www.linkedin.com/in/insight-scholar-593065421/?skipRedirect=true">LinkedIn</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Registration</h4>
+      <a href="https://forms.gle/mhqiQmN9z27biwUx7" class="js-form-link" target="_blank" rel="noopener">Open Google Form</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Insight Scholar. All rights reserved.</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
